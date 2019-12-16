@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(dash.jpg);
+	background-size: cover;
+	background-position: center;
+    font-family: georgia;
+}
+h1{ 
+	margin-bottom: 10px;
+	padding: 0 0 20px;
+	text-align:center;
+	font-size: 50px;
+	color: black;
+	font-family: new roman times;
+}
+.rec input[type="submit"]
+{ width: 250px;
+	border: none;
+	outline: none;
+	height: 50px;
+	background: transparent;
+	color: black;
+	font-size:18px;
+	border-radius: 49px;
+	font-family: georgia;
+}
+.rec input[type="submit"]:hover
+{cursor: pointer;
+background: #db7093;
+color:#000; 
+font-size: 25px;
+}
+.rec button{
+	background-color: #fffafa;
+	border-radius: 10px;
+}
+.rec a{
+	text-decoration: none;
+	font-size: 19px;
+	color: black;
+
+}
+.rec a:hover
+{
+ color: #0000ff;
+ font-size: 22px;
+
+}
+.rec table
+{
+	margin-top: 30px;
+	opacity: 80%;
+}
+.rec th,td
+{   font-size: 19px;
+	text-align: center;
+}
+.rec th
+{   
+	background-color:#800080;
+	color: white;
+	font-size: 20px;
+}
+tr:nth-child(even){
+	background-color: #d8bfd8;
+}
+tr:nth-child(odd){
+	background-color: #e6e6fa;
+}
